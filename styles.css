@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+body{
+  margin:0;
+  padding:0;
+  background: #000;
+}
+
+video{
+  width: 100%;
+  height:566px;
+}
+/*********** Slider **********/
+.caro-container{
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+}
+
+#carouselHld{
+  width: 600px;
+  margin-top:-10px;
+}
+/*****************************************/
+/************** Skills *********/
+ul{
+  list-style: none;
+}
+.skills-star{
+  padding-left: 40px;
+  text-align: right;
+}
+.skills-star-css{
+  padding-left: 60px;
+  text-align: justify;
+}
+
+.skills-star-boots{
+  padding-left: 23px;
+}
+.fa-star{
+  color: #009900;
+
+}
+/****************** Contact ********************/
+.card-block{
+  font-family: 'Pangolin', cursive;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+/********* footer ****************/
+#footer{
+  height: 50px;
+  font-size: 24px;
+}

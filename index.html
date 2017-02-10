@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Webpage</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body>
+	<video autoplay muted loop>
+	<source src="video/diamonds.mp4" type="video/mp4">
+	</video>
+
+<div class="container-fluid">
+  <!-- Carousel -->
+  <div class="caro-container">
+  <div class="row ">
+
+      <div class="col-md-12">
+      <div id="carouselHld" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselHld" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselHld" data-slide-to="1"></li>
+          <li data-target="#carouselHld" data-slide-to="2"></li>
+          <li data-target="#carouselHld" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="images/pic1.jpeg" class="img-fluid" ></div>
+          <div class="carousel-item "><img src="images/pic2.jpeg" class="img-fluid" ></div>
+          <div class="carousel-item "><img src="images/pic3.jpg" class="img-fluid" ></div>
+          <div class="carousel-item "><img src="images/pic4.jpeg" class="img-fluid" ></div>
+        </div><!-- End of coursel-inner -->
+          <a href="#carouselHld" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+          <a href="#carouselHld" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+      </div><!-- end of carouselHld -->
+    </div><!-- End of col-md-12 -->
+  </div><!-- end of caro-container -->
+	</div><!-- End of Carousel row -->
+
+	<div class="row">
+    <div class="col-xs-12">
+      <div id="myAcc">
+        <div class="card">
+            <div class="card-header">
+              <a data-toggle="collapse" data-parent="#myAcc" href="#c1" class="btn btn-primary btn-block  ">About</a>
+            </div>
+            <div id="c1" class="collapse in" >
+              <div class="card-block">
+                <p>Every story I create, creates me. I write to create myself.</p>
+
+              </div>
+            </div>
+        </div><!-- end of card -->
+       <div class="card">
+         <div class="card-header">
+            <a data-toggle="collapse" data-parent="#myAcc" href="#c2" class="btn btn-success btn-block  ">Skills</a>
+          </div>
+          <div id="c2" class="collapse" >
+            <div class="card-block">
+              <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <ul>
+        <li>HTML<span class="skills-star"><i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+        </li>
+        <li>CSS<span class="skills-star-css"><i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+             </span>
+       </li>
+        <li>Bootstrap<span class="skills-star-boots"><i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+             </span>
+      </li>
+      </ul>
+    </div>
+    <div class="col-md-4"></div>
+        </div>
+            </div>
+          </div>
+        </div><!-- end of card -->
+            <div class="card">
+              <div class="card-header">
+            	   <a data-toggle="collapse" data-parent="#myAcc" href="#c3" class="btn btn-danger btn-block  ">Contact</a>
+               </div>
+                <div id="c3" class="collapse" >
+                	<div class="card-block">
+                		<p>A simple hello could lead to a million things.</p>
+                		<form>
+                    <div class="row form-group has-success">
+                        <label class="col-sm-2" for="fullname">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="fullname" class="form-control form-control-success"> </div>
+                    </div>
+                    <div class="row form-group">
+                        <label class="col-sm-2" for="email">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" id="email" class="form-control"> </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-sm-10 offset-sm-2">
+                            <button type="button" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+					 </div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+    	<div class="row" >
+    		<div id="footer" class="col-md-12 text-xs-center text-white">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        	</div>
+    	</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+   <!--  <script src="script.js"></script> -->
+</body>
+</html>
